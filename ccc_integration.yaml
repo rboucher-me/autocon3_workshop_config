@@ -1,0 +1,9 @@
+  policies:
+    worker:
+      catalyst_center_worker:
+        config:
+          package: nbl_cisco_catalyst_center
+          CCC_HOST: ${CCC_HOST}
+          CCC_USER: ${CCC_USER}
+          CCC_PWD: ${CCC_PWD}
+        scope:
