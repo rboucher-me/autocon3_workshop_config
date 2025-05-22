@@ -1,0 +1,20 @@
+network_1:
+  selector:
+    network_discovery: true
+  policies:
+    default:
+      path: network_discovery.yaml
+
+device_1:
+  selector:
+    device_discovery: true
+  policies:
+    network_discovery:
+      path: device_discovery.yaml
+
+worker_1:
+  selector:
+    ccc_integration: true
+  policies:
+    device_discovery:
+      path: ccc_integration.yaml
