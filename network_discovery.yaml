@@ -1,0 +1,8 @@
+  policies:
+    network_discovery:
+      policy_1:
+        config:
+          schedule: "* * * * *"
+          timeout: 5
+        scope:
+          targets: [${DOCKER_SUBNET}]
