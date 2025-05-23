@@ -1,4 +1,3 @@
-  policies:
     device_discovery:
       discovery_1:
         config:
