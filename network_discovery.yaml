@@ -4,4 +4,5 @@
           schedule: "* * * * *"
           timeout: 5
         scope:
-          targets: [172.17.0.0/16]
+          targets: 
+            - ${DOCKER_SUBNET}
