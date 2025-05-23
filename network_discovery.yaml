@@ -1,4 +1,3 @@
-  policies:
     network_discovery:
       policy_1:
         config:
