@@ -1,4 +1,3 @@
-  policies:
     worker:
       catalyst_center_worker:
         config:
