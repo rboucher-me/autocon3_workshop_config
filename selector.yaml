@@ -7,7 +7,7 @@ ping_scan_selector:
 
 port_scan_selector:
   selector:
-    port_discovery_type: normal
+    port_discovery_type: standard
   policies:
     default:
       path: port_scan.yaml
