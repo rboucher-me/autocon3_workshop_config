@@ -1,6 +1,6 @@
 ping_scan_selector:
   selector:
-    ping_discovery: true
+    ping_scan: true
   policies:
     default:
       path: ping_scan.yaml
