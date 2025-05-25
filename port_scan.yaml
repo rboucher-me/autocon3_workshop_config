@@ -1,9 +1,7 @@
     network_discovery:
-      port_scan:
+      port_scan_slow:
         config:
-          schedule: "* * * * *"
-          timeout: 5
         scope:
           targets:
             - 10.114.0.0/24
-          timing: 5
+          timing: 1
