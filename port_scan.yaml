@@ -3,5 +3,5 @@
         config:
         scope:
           targets:
-            - 10.114.0.0/24
-          timing: 3
+            - 10.114.0.1-100
+          timing: 1
