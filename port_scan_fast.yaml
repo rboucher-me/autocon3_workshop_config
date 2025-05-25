@@ -3,6 +3,6 @@
         config:
         scope:
           targets:
-            - 10.114.0.0/24
+            - 10.114.0.1-100
           fast_mode: true
           timing: 5
