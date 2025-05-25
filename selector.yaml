@@ -7,14 +7,14 @@ ping_scan_selector:
 
 port_scan_selector:
   selector:
-    port_discovery_type: standard
+    discovery_type: port scan
   policies:
     default:
       path: port_scan.yaml
       
 port_scan_fast_selector:
   selector:
-    port_discovery_type: fast
+    discovery_type: fast port scan
   policies:
     default:
       path: port_scan_fast.yaml
