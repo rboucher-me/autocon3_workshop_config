@@ -4,4 +4,3 @@
         scope:
           targets:
             - 10.114.0.1-100
-          timing: 1
