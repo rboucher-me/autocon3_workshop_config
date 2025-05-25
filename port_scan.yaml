@@ -1,7 +1,7 @@
     network_discovery:
-      port_scan_slow:
+      port_scan:
         config:
         scope:
           targets:
             - 10.114.0.0/24
-          timing: 1
+          timing: 3
