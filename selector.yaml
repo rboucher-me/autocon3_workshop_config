@@ -18,3 +18,10 @@ port_scan_fast_selector:
   policies:
     default:
       path: port_scan_fast.yaml
+
+ccc_integration_selector:
+  selector:
+    ccc_integration: true
+  policies:
+    default:
+      path: ccc_integration.yaml
