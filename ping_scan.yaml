@@ -7,3 +7,4 @@
           targets:
             - 10.114.0.0/24
           ping_scan: true
+          timing: 4
