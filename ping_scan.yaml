@@ -3,6 +3,6 @@
         config:
         scope:
           targets:
-            - 10.114.0.0/24
+            - 10.114.0.0/20
           ping_scan: true
           timing: 5
