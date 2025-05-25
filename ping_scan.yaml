@@ -1,5 +1,5 @@
     network_discovery:
-      policy_1:
+      ping_scan:
         config:
           schedule: "* * * * *"
           timeout: 5
@@ -7,4 +7,3 @@
           targets:
             - 10.114.0.0/24
           ping_scan: true
-          timing: 5
